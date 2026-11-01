@@ -11,3 +11,8 @@ PHPの勉強記録です。
 | today.php | HTMLの中にPHPを書く、`date()` |
 | me.php / me-web.php | 自己紹介（CLI / Web、`<?= ?>` 短縮タグ） |
 | variable.php | 変数、データ型、`var_dump`、文字列の連結 |
+
+## practice/
+
+学習サイト「はじめてのPHP & Laravel」で書いて実行したコードを、章ごとに保存しています。
+進み具合は [practice/PROGRESS.md](practice/PROGRESS.md) にまとめています。
