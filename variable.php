@@ -1,6 +1,6 @@
 <?php
 
-$name = "정태웅";
+$name = "チョン・テウン";
 $age = 27;
 
 echo $name;
@@ -14,7 +14,7 @@ echo $score . "\n";
 $score = 95;
 echo $score . "\n";
 
-$title = "PHP 입문";
+$title = "PHP入門";
 $pages = 250;
 $price = 19800.5;
 $iNew = true;
@@ -26,19 +26,19 @@ var_dump($price);
 var_dump($iNew);
 var_dump($memo);
 
-echo "안녕, $name\n";
-echo '안녕, $name\n';
+echo "こんにちは、$name\n";
+echo 'こんにちは、$name\n';
 echo "\n";
-$item = "사과";
-echo "{$item}를 3개 샀어요.\n";
+$item = "りんご";
+echo "{$item}を3個買いました。\n";
 
-$firstName = "태웅";
-$lastName = "정";
+$firstName = "テウン";
+$lastName = "チョン";
 
 $fullName = $lastName . $firstName;
 echo $fullName . "\n";
-echo "이름: " . $fullName . "님" . "\n";
+echo "名前: " . $fullName . "さん" . "\n";
 
-$message = "안녕";
-$message.= "하세요";
+$message = "こんに";
+$message.= "ちは";
 echo $message . "\n";
