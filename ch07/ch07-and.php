@@ -9,7 +9,7 @@ if ($age >= 19 && $isMember){
 }
 echo "\n";
 
-$day = "월";
+$day = "토";
 if ($day === "토" || $day === "일"){
     echo "오늘은 주말입니다.";
 }else{
