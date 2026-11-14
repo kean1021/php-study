@@ -21,8 +21,9 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
     } else {
         echo "<p>통과! 저장을 진행합니다.</p>";
     }
-}
+ }
 ?>
 <form method="post" action="validate.php">
     <input name="name" placeholder="이름"> <input name="email" placeholder="이메일">
     <button type="submit">보내기</button>
+    
